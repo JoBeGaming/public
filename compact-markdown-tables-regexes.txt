@@ -1,0 +1,7 @@
+Regexes:
+Step 1:
+  Untested: `(?:\||^)(\s+\|)` -> ` |`
+  Tested: `\s+\|` -> ` |` + Manual fixes
+Step 2:
+  Theory: `\s*-+\s*\|` -> ` --- |`
+  Tested: `-+\|` -> ` --- |`

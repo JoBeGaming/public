@@ -1,0 +1,5 @@
+E.g. for # as comment
+^[^#]\s*NAME
+
+So e.g. searching for all non-commented out usages of `print` (might include in strings too)
+^[^#]\s*print
